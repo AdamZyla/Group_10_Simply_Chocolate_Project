@@ -226,6 +226,7 @@
       
       margin-left: 32px;
       margin-right: 32px;
+      margin-bottom: 50px;
       min-width: 704px;
       flex-shrink: 0;
       background-position: right;
@@ -350,6 +351,7 @@
    align-items: center;
    justify-content: center;
    border: none;
+   background-color: var(--white);
 }
 .scroll-down-text {
    color: #FFF;
@@ -361,6 +363,13 @@
    letter-spacing: -0.42px;
  
 }
+
+.hero-scroll-icon {
+ fill: var(--orange);
+}
+
+
+
 
 }
 
