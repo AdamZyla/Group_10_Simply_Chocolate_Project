@@ -223,7 +223,7 @@
    .section-hero {
       display: flex;
       background-color: #fafafa;
-      margin-top: 80px;
+      
       margin-left: 32px;
       margin-right: 32px;
       min-width: 704px;
