@@ -71,6 +71,12 @@
 /*-------------------- DESKTOP--------DESKTOP -------------DESKTOP ----------*/
 
 @media screen and (min-width: 1200px) {
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
   .subscribe_text {
     min-width: 467px;
     text-align: center;
@@ -95,18 +101,20 @@
   }
 
   .subscribe_section {
-    display: inline-flex;
-    padding: 72px 367px 72px 366px;
-    justify-content: center;
-    align-items: center;
-    min-width: 1200px;
-    height: 370px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url(../../images/desk_subcribe@2x.jpg), lightgray 0px -481.157px / 100% 375.122% no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+
+  .subscribe_container {
+    padding: 72px 367px 72px 366px;
+  }
+
   .subscribe_button {
     display: flex;
     padding: 14px 40px;
