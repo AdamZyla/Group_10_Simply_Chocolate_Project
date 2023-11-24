@@ -1,41 +1,50 @@
-<div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-        <button class="close" type="button" data-modal-close>
-            <svg class="close-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-x_close" />
-            </svg>
+
+<div class="modal_explore_our_new is-hidden" data-modal-review>
+    <div class="modal_window_explore_our_new">
+        <button type="button" class="modal_close_button_explore_our_new" data-modal-review-close>
+            <svg class="modal_close_button_icon_explore_our_new" width="12" height="12">
+                <use href="./images/icons.svg#icon-x_close"></use>
         </button>
-        <p class="p-modal-white">LEAVE A REVIEW ABOUT
-            <span class="span-modal-orange">OUR CHOCOLATE</span>
-        </p>
-        <form>
-            <div class="form-modal">
-                <label class="label-modal" for="user-name" />
-                <div class="div-modal">
-                    <input required class="input-modal" name="user-name" id="user-name" type="text" placeholder="Name">
+      <p class="p-modal-review">LEAVE A REVIEW ABOUT</p>
+      <span class="span-modal-review">OUR CHOCOLATE</span>
+      <form>
+        <div class="form-modal">
+          <label class="label-modal" for="user-name">Name</label>
+          <div class="div-modal">
+            <input required class="input-modal" name="user-name" id="user-name" type="text" >
+          </div>
+          </div>
+          <div class="form-modal">
+            <label class="label-modal">Email</label>
+            <div class="div-modal">
+              <input required class="input-modal" name="user-name" id="email" type="text" >
+            </div>
+          </div>
+          <div class="form-modal">
+                    <label for="phone-number" class="modal-form-label">Phone number</label>
+                    <div class="form-modal">
+                        <uly>
+                            <li>
+                                <input type="tel" name="phone-number" id="phone-number"
+                                    placeholder="                 | Phone number" class="modal-input" pattern />
+                            </li>
+                          <li>
+                                <svg class="modal-form-icon" width="32" height="24">
+                                    <use href="./images/icons.svg#icon-Frame"></use>
+                                </svg>
+                            </li>
+                            <li class="modal-form-icon">
+                                <p class="number-380">+380 </p>
+                            </li>
+                        </uly>
+                    </div>
                 </div>
-            </div>
-            <div class="form-modal">
-                <label class="label-modal">
-                    <div class="div-modal">
-                        <input required class="input-modal" name="user-name" id="email" type="text" placeholder="Email">
-                    </div>
-            </div>
-            <div class="form-modal">
-                <label class="label-modal">
-                    <div class="div-modal">
-                        <input required class="input-modal" name="user-name" id="phone" type="text"
-                            placeholder="<svg class=" icon icon-Frame">
-                        <use xlink:href="#icon-Frame"></use></svg>+380 Phone number" >
-                        </input>
-                    </div>
-            </div>
-            <div class="div-comment">
-                <label class="label-modal" for="user-comment">
-                    <textarea class="textarea-modal" id="user-comment" name="user-comment"
-                        placeholder="Text input"></textarea>
-            </div>
-            <button class="button-modal" type="submit">Send</button>
-        </form>
+          <div class="div-comment">
+           <label class="label-modal" for="user-comment"/> 
+           <textarea class="textarea-modal-review" id="user-comment" name="user-comment" placeholder="Text input" ></textarea>
+          </div>
+          <button class="button-modal-review" type="submit">Send</button>
+      </form>
+      </div>
     </div>
-</div>
+    
