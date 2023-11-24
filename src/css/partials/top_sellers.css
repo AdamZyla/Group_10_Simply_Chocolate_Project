@@ -1,4 +1,9 @@
 /*----------TOP SELLER- Anton Odintsov---------*/
+.container {
+min-width: 1136px;
+width: 646px;
+}
+
 li {
     list-style-type: none;
 }
@@ -8,10 +13,12 @@ img {
 }
 
 .top_sellers_section {
-    display: inline;
+    width: 1136px;
+    display: flex;
     box-sizing: border-box;
     margin: 0 auto;
     background-color: #fafafa;
+    
 }
 
 .top_sellers_order {
@@ -21,6 +28,7 @@ img {
     align-items: center;
     gap: 50px;
     flex-shrink: 0;
+    margin: 0 auto;
 }
 
 .top_sellers {
