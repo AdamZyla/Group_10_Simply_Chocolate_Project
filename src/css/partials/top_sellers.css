@@ -10,14 +10,8 @@ img {
 .top_sellers_section {
     display: inline;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     background-color: #fafafa;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .top_sellers_order {
@@ -128,18 +122,16 @@ img {
 
     .container {
         max-width: 428px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .top_sellers_section {
         display: flex;
         width: 335px;
-        height: 1187px;
         flex-direction: column;
         align-items: center;
         gap: 32px;
         flex-shrink: 0;
+        padding-bottom: 72px;
     }
 
     .top_sellers_order {
@@ -250,6 +242,10 @@ img {
         width: 768px;
     }
 
+    .top_sellers_section {
+        padding-bottom: 100px;
+    }
+
     body {
 
         font-family: Montserrat, sans-serif;
@@ -336,5 +332,9 @@ img {
         align-items: center;
         gap: 567px;
         flex-direction: row;
+    }
+
+    .top_sellers_section {
+        padding-bottom: 128px;
     }
 }
