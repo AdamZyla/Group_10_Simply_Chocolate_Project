@@ -1,19 +1,24 @@
 
 
+
 /*-------------------------Modal-----------------------------*/
 .is-hidden{
+
     pointer-events: none;
     visibility: hidden;
     opacity: 0;
     transform: translateX(-50%) translateY(-50%) scale(0) rotate(0deg) skew(40deg, 40deg);
+
   }
   .backdrop{
+
     position: fixed;
     inset: 0 0 auto;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
   pointer-events: all;
   opacity: 1;
   background-color: rgba(46, 47, 66, 0.4);
@@ -40,10 +45,12 @@
   padding: 24px 48px 24px 48px;
   }
   .close-button{
+
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+
    margin-left: 509px;
    margin-bottom: 24px;
     cursor: pointer;
@@ -67,10 +74,12 @@
   }
   
   .top_sellers_span{
+
     color: #FD9222;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
+
     line-height: 28px; 
     letter-spacing: -0.72px;
     text-transform: uppercase;}
@@ -86,6 +95,7 @@
       padding-bottom: 40px;
   }
   .top_sellers_card{
+
     border-radius: 15px;
     border: 1px solid rgba(17, 17, 17, 0.10);
     background: #FFF;
@@ -97,6 +107,7 @@
     align-items: center;
     gap: 14px;
     flex-shrink: 0;
+
   }
   .card_button{
     display: flex;
@@ -113,12 +124,14 @@
     position: relative; 
   }
   .modal-form-label {
+
     color: #000;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: -0.28px;
     padding-top: 8px;
+
   }
   .modal-info{
     display: flex;
@@ -128,6 +141,7 @@
   padding-top: 8px;
   }
   .modal-input {
+
     display: flex;
     width: 513px;
     padding: 22px 24px;
@@ -138,6 +152,7 @@
   background-color: #FAFAFA; 
   }
   .modal-input_phone{
+
     display: flex;
     width: 513px;
     padding: 22px 24px;
@@ -148,6 +163,7 @@
   background-color: #FAFAFA; 
   }
   .modal-form-icon {
+
     position: absolute;
     left: 16px;
     top: 50%;
@@ -161,11 +177,13 @@
     border-color: #FD9222;;
   }
   .modal-form-textarea {
+
     display: flex;
     width: 513px;
     padding: 22px 24px 93px 24px;
     align-items: flex-start;
     gap: 40px;
+
     background-color: #FAFAFA; 
     border-radius: 13px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
@@ -608,3 +626,4 @@
           letter-spacing: -0.36px;
           padding-left: 36px;
           }}
+

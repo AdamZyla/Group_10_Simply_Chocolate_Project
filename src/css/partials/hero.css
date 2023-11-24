@@ -19,17 +19,19 @@
  .section-hero {
     display: flex;
     background-color: #fafafa;
-    margin-top: 80px;
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-top: 0;
+    margin: 0 auto;
     width: 1136px;
     flex-shrink: 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(/src/images/desk_bground@2x.jpg);
     border-radius: 30px;
-    
+
+    margin-bottom: 72px;
+      
  }
 
 
@@ -44,6 +46,8 @@
     line-height: 34px; /* 121.429% */
     letter-spacing: -0.84px;
     width: 484px;
+
+    padding-bottom: 32px;
  }
 
 
@@ -127,12 +131,15 @@
  }
  
  .hero-scroll-icon {
+
    fill: #FD9222;
  }
 
+ 
+
  .container-hero-one {
     min-width: 1056px;
-    height: 179px;
+    /*height: 179px;*/
     margin-top: max(381px);
     margin-bottom: 0;
     gap: 32px;
@@ -141,20 +148,24 @@
  .container-hero-two {
    display: flex;
    gap: 14px;
-   margin-top: 32px;
+   /*margin-top: 32px;*/
    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .container-hero-three {
-   justify-content: center;
+   justify-content: end;
    align-items: center;
    width: 163px;
    display: flex;
    gap: 14px;
 }
 
+
 .container-hero-three:hover .scroll-down-text {
    color: var(--orange);
+
+
    cursor: pointer;
 }
 .container-hero-three:hover .scroll-down {
@@ -167,6 +178,7 @@
 .container-hero-three:hover {
    fill: var(--white);
 }
+
 
 .button-div-bye-now {
    display: flex;
@@ -211,7 +223,7 @@
    .section-hero {
       display: flex;
       background-color: #fafafa;
-      margin-top: 80px;
+      
       margin-left: 32px;
       margin-right: 32px;
       margin-bottom: 50px;
@@ -231,6 +243,7 @@
 
 .container-hero-one {
    min-width: 624px;
+   
    height: 179px;
    margin-top: max(671px);
    margin-bottom: 0;
@@ -313,7 +326,7 @@
 
 
 .container-hero-three {
-   justify-content: center;
+   justify-content: end;
    align-items: center;
    height: 38px;
    width: 130px;
@@ -365,7 +378,7 @@
 /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ /* MOBILE */ 
 
 
-@media screen and (min-width: 375px) and (max-width: 767px)  {
+@media screen and (max-width: 767px)  {
 
 body{
       font-family: Montserrat, sans-serif;
@@ -374,7 +387,7 @@ body{
   }
 
 .container{
-   min-width: 335px;
+  
    min-height: 621px;
 }
 
@@ -394,10 +407,13 @@ body{
 .section-hero {
    display: flex;
    background-color: #fafafa;
+
    margin-top: 62px;
    margin-left: 20px;
    margin-right: 20px;
+   margin-bottom: 72px;
    min-width: 335px;
+
    flex-shrink: 0;
    background-position: right;
    background-size: cover;
@@ -494,9 +510,11 @@ body{
       gap: 14px;
    }
    
+
    .hero-scroll-icon {
    width: 28px;
    height: 28px;   }
+
   
    .container-hero-one {
       width: 335px;
