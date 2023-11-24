@@ -4,13 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 24px;
-}
-.subscribe_section {
+  height: 375px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
     url(../../images/mob_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
-
-  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -67,9 +66,24 @@
   background-color: var(--orange);
   transform: scale(1.05);
 }
-
-/*-------------------- DESKTOP--------DESKTOP -------------DESKTOP ----------*/
-
+@media screen and (min-width: 768px) {
+  .subscribe_title {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    width: 378px;
+  }
+  .subscribe_container {
+    width: 768px;
+    height: 370px;
+    display: flex;
+    margin: 0 auto;
+    padding: 72px 151px 72px 150px;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscribe_text {
     min-width: 467px;
@@ -94,19 +108,15 @@
     margin: 0 44px;
   }
 
-  .subscribe_section {
-    display: inline-flex;
-    padding: 72px 367px 72px 366px;
-    justify-content: center;
-    align-items: center;
-    min-width: 1200px;
-    height: 370px;
+  .subscribe_container {
+    width: 1200px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url(../../images/desk_subcribe@2x.jpg), lightgray 0px -481.157px / 100% 375.122% no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
   }
+
   .subscribe_button {
     display: flex;
     padding: 14px 40px;
@@ -119,40 +129,22 @@
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .subscribe_section {
+  .subscribe_container {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
       url(../../images/desk_subcribe@2x.jpg),
       lightgray -158.445px -335.767px / 187.796% 186.969% no-repeat;
+    background-size: 100% 100%;
   }
 }
-
-/*------TABLET ---------- TABLET--------------TABLET -----------*/
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .subscribe_section {
+  .subscribe_container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url(../../images/tab_subcribe@2x.jpg), lightgray -412px -477.287px / 320% 372.105%;
 
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .subscribe_title {
-    font-size: 24px;
-    font-style: normal;
-    line-height: 28px;
-    letter-spacing: -0.72px;
-    width: 378px;
-  }
-  .subscribe_section {
-    width: 768px;
-    height: 370px;
-    display: inline-flex;
-    padding: 72px 151px 72px 150px;
-    justify-content: center;
-    align-items: center;
   }
 }

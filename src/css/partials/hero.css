@@ -154,7 +154,7 @@
 }
 
 .container-hero-three {
-   justify-content: center;
+   justify-content: end;
    align-items: center;
    width: 163px;
    display: flex;
@@ -223,9 +223,10 @@
    .section-hero {
       display: flex;
       background-color: #fafafa;
-      margin-top: 80px;
+      
       margin-left: 32px;
       margin-right: 32px;
+      margin-bottom: 50px;
       min-width: 704px;
       flex-shrink: 0;
       background-position: right;
@@ -242,6 +243,7 @@
 
 .container-hero-one {
    min-width: 624px;
+   
    height: 179px;
    margin-top: max(671px);
    margin-bottom: 0;
@@ -324,7 +326,7 @@
 
 
 .container-hero-three {
-   justify-content: center;
+   justify-content: end;
    align-items: center;
    height: 38px;
    width: 130px;
@@ -350,6 +352,7 @@
    align-items: center;
    justify-content: center;
    border: none;
+   background-color: var(--white);
 }
 .scroll-down-text {
    color: #FFF;
@@ -361,6 +364,13 @@
    letter-spacing: -0.42px;
  
 }
+
+.hero-scroll-icon {
+ fill: var(--orange);
+}
+
+
+
 
 }
 
