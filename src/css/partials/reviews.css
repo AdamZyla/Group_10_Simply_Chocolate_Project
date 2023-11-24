@@ -122,12 +122,12 @@
 
 @media (min-width: 768px) {
   .section-reviews {
-    width: 768px;
+    width: 704px;
     padding: 50px 0;
     margin: auto;
   }
   .section-reviews .conteiner {
-    width: 768px;
+    width: 704px;
     height: 463px;
     padding: 0 32px;
   }
@@ -135,7 +135,7 @@
     font-size: 24px;
   }
   .section-reviews ul {
-    max-width: 768px;
+    max-width: 704px;
   }
   .section-reviews li {
     width: 344px;
